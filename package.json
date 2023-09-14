@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "mocha": "^10.2.0",
+    "nuxt": "^3.7.3"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.32.2",
+    "express": "^4.18.2",
+    "node-sass": "^9.0.0",
+    "sass": "^1.67.0",
+    "sass-loader": "^13.3.2",
+    "v-viewer": "^1.6.4",
+    "vite": "^4.4.9",
+    "vue": "^3.3.4",
+    "vue-awesome-swiper": "^5.0.1",
+    "webpack": "^5.88.2"
+  }
+}
